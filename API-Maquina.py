@@ -36,7 +36,7 @@ password = "guardian#angel#grupo7"
 # Construct connection string
 
 conexaoA = pymssql.connect(server = server, user = username, password = password, database = database)
-conexaoW = pymysql.connect(db='GuardianAngel', user='root', passwd='urubu100')
+conexaoW = pymysql.connect(db='GuardianAngel', user='root', passwd='urubu100', host ='localhost:3306')
 # Aqui é a função que faz com que o programa fique rodando em loop infinito
 while True:
     limpa_tela()
