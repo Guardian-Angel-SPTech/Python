@@ -12,7 +12,6 @@
 # import psutil
 # import pymysql
 
-from cgi import print_form
 import psutil
 from psutil import virtual_memory
 import os
